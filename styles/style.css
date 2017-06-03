@@ -1,7 +1,31 @@
+body, html, .container-fluid {
+  height: 100%;
+}
+
 body {
   background-image: url(../images/etc.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
-  background-color: #000;
+  background-position: center 30%;
+  background-color: #040707;
+}
+
+button {
+  background-color: #040707;
+  border-color: #488c4c;
+  color: #4fb858;
+  border-radius: 15px;
+  width: 20px;
+  height: 35px;
+  font-size: 16px;
+  font-family: Georgia, Serif;
+}
+
+p, ul {
+  color: #4fb858;
+  font-family: Georgia, Serif;
+}
+
+.row.top {
+  height: 76%;
 }
